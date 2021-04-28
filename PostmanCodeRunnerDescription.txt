@@ -1,0 +1,21 @@
+Prerequisites for Postman Testing of Reqres URL
+
+Import Collections from JSON file - Reqrescollection
+                                    
+Git URL - https://github.com/bvisvanathan/SimpliPostmanFinalProject.git
+
+newman run D:\Simplilearn\2021\Phase5\Postman\Reqrescollection.json
+
+Test Scenarios of API below - https://reqres.in/ 
+
+1) Get User List - Get request to reqres URL and get all users list and validate the response
+
+Test API - https://reqres.in/api/users?page=2
+Request Used in Postman - https://reqres.in/api/users?page={{page}}
+
+2) Post User - Post request to reqres URL and validate the response
+
+Test API - https://reqres.in/api/users
+Request Body - {"name":"gmorpheus","job":"gleader"}
+
+
